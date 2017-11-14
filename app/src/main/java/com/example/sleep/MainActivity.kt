@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
         } else if (15 < hour) {
             greeting = "こんばんは"
         }
-        greeting += "。。。ひつじが1匹。。。ひつじが2匹。。。ひつじが3匹。。。"
 
+        val sheepNum = 10
+        for (i in 1..sheepNum) {
+            greeting += "。。。ひつじが" + i + "匹"
+        }
 
         textView.text = greeting
     }
