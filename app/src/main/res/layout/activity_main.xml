@@ -7,10 +7,9 @@
     android:id="@+id/rootLayout"
     tools:context="com.example.sleep.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <TextView android:id="@+id/textview"
+        android:text=""
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>

@@ -7,6 +7,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    var sheepCount = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,11 +24,19 @@ class MainActivity : AppCompatActivity() {
             greeting = "こんばんは"
         }
 
-        val sheepNum = 10
-        for (i in 1..sheepNum) {
-            greeting += "。。。ひつじが" + i + "匹"
-        }
+//        val sheepNum = 10
+//        for (i in 1..sheepNum) {
+//            greeting += "。。。ひつじが" + i + "匹"
+//        }
 
-        textView.text = greeting
+        greeting += "ねむれませんか？"
+
+        textview.text = greeting
+
+        rootLayout.setOnClickListener {
+            sheepCount++
+            val sheepText = "ひつじが$sheepCount 匹"
+            textview.text = sheepText
+        }
     }
 }
