@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         } else if (15 < hour) {
             greeting = "こんばんは"
         }
+        greeting += "。。。ひつじが1匹。。。ひつじが2匹。。。ひつじが3匹。。。"
+
 
         textView.text = greeting
     }
