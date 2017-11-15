@@ -44,4 +44,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onPause() {
+        super.onPause()
+        //Log.i("onPause", "眠るまでの回数=" + sheepCount)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        textview.text = "前回は$sheepCount 回羊を数えました。"
+    }
+
+
 }

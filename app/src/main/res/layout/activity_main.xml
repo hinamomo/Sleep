@@ -7,15 +7,22 @@
     android:id="@+id/rootLayout"
     tools:context="com.example.sleep.MainActivity">
 
-    <TextView android:id="@+id/textview"
-        android:text=""
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:text="hello world!"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="54dp" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/sheep_1"/>
+        android:src="@drawable/sheep_1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="95dp" />
 
 </android.support.constraint.ConstraintLayout>
