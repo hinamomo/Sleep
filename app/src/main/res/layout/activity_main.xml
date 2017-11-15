@@ -7,15 +7,28 @@
     android:id="@+id/rootLayout"
     tools:context="com.example.sleep.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/night_backgraund"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
     <TextView
         android:id="@+id/textview"
         android:layout_width="289dp"
         android:layout_height="41dp"
         android:text="hello world!"
         android:textAlignment="center"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="136dp" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -23,6 +36,6 @@
         android:layout_height="wrap_content"
         android:src="@drawable/sheep_1"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="95dp" />
+        tools:layout_editor_absoluteY="146dp" />
 
 </android.support.constraint.ConstraintLayout>
