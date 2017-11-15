@@ -25,11 +25,6 @@ class MainActivity : AppCompatActivity() {
             greeting = "こんばんは"
         }
 
-//        val sheepNum = 10
-//        for (i in 1..sheepNum) {
-//            greeting += "。。。ひつじが" + i + "匹"
-//        }
-
         greeting += "ねむれませんか？"
 
         textview.text = greeting
