@@ -13,6 +13,7 @@
         android:layout_height="41dp"
         android:text="hello world!"
         android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -28,5 +29,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
