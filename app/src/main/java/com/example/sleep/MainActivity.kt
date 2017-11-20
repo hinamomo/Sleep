@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        //Log.i("onPause", "眠るまでの回数=" + sheepCount)
     }
 
     override fun onResume() {
